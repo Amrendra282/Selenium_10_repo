@@ -15,6 +15,7 @@ public class BajajTest {
 		   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		   
 		   driver.get("https://www.bajajauto.com/bikes");
-		     Reporter.log("Bajaj Test get launched", true);
+		   Reporter.log("Bajaj Test get launched", true);
+		   Reporter.log("Bajaj Test get launched", true);
 	   }
 }
